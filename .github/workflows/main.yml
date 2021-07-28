@@ -28,7 +28,7 @@ jobs:
 
       env:
 
-        NGROK_AUTH_TOKEN: ${{ secrets.1vxBsCtlY20zpBZZCtBQVWJa6E3_2jzAnc3vPMzEKxFCU3c4f }}
+        NGROK_AUTH_TOKEN: ${{secrets.NGROK_AUTH_TOKEN}}
 
     - name: Download Important Files.
 
